@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Handcrafted trombones - Premium materials, fast shipping, quality assured"
+    />
+    <title>Original Trombones - Handcrafted Masterpieces</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header" role="banner">
+      <div class="header__container">
+        <img
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+          alt="Original Trombones Logo"
+          class="logo"
+        />
+        <nav role="navigation" aria-label="Main navigation">
+          <ul class="nav__list">
+            <li>
+              <a href="#features" class="nav__link">Features</a>
+            </li>
+            <li>
+              <a href="#how-it-works" class="nav__link">How It Works</a>
+            </li>
+            <li>
+              <a href="#pricing" class="nav__link">Pricing</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main" role="main">
+      <!-- Hero Section -->
+      <section class="hero section" aria-labelledby="hero-title">
+        <div class="container">
+          <h1 id="hero-title" class="hero__title">
+            Handcrafted, home-made masterpieces
+          </h1>
+          <form
+            class="hero__form"
+            action="https://www.freecodecamp.org/email-submit"
+            method="get"
+            aria-label="Newsletter signup"
+          >
+            <input
+              type="email"
+              name="email"
+              class="form__input"
+              placeholder="Enter your email address"
+              required
+              aria-label="Email address"
+            />
+            <button type="submit" class="btn">Get Started</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Video Section -->
+      <section
+        id="how-it-works"
+        class="video-section section"
+        aria-labelledby="video-title"
+      >
+        <div class="container">
+          <h2 id="video-title" class="section__title">See How It's Made</h2>
+          <div class="video__container">
+            <iframe
+              class="video__iframe"
+              src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&controls=1"
+              title="How Original Trombones are made"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pricing Section -->
+      <section
+        id="pricing"
+        class="pricing section"
+        aria-labelledby="pricing-title"
+      >
+        <div class="container">
+          <h2 id="pricing-title" class="section__title">
+            Choose Your Trombone
+          </h2>
+          <div class="pricing__grid">
+            <article class="pricing-card">
+              <header class="pricing-card__header">
+                <h3 class="pricing-card__title">Tenor Trombone</h3>
+              </header>
+              <div class="pricing-card__price">$600</div>
+              <ul class="pricing-card__features">
+                <li class="pricing-card__feature">Good for beginners</li>
+                <li class="pricing-card__feature">Excellent sound quality</li>
+                <li class="pricing-card__feature">Great for Jazz Bands</li>
+                <li class="pricing-card__feature">Nice and shiny</li>
+              </ul>
+              <button class="btn pricing-card__button">Select</button>
+            </article>
+
+            <article class="pricing-card">
+              <header class="pricing-card__header">
+                <h3 class="pricing-card__title">Bass Trombone</h3>
+              </header>
+              <div class="pricing-card__price">$900</div>
+              <ul class="pricing-card__features">
+                <li class="pricing-card__feature">
+                  Sound quality is unmatched
+                </li>
+                <li class="pricing-card__feature">Best for professionals</li>
+                <li class="pricing-card__feature">Absolutely stunning</li>
+                <li class="pricing-card__feature">Durable and long lasting</li>
+              </ul>
+              <button class="btn pricing-card__button">Select</button>
+            </article>
+
+            <article class="pricing-card">
+              <header class="pricing-card__header">
+                <h3 class="pricing-card__title">Valve Trombone</h3>
+              </header>
+              <div class="pricing-card__price">$1200</div>
+              <ul class="pricing-card__features">
+                <li class="pricing-card__feature">
+                  Plays similar to a Trumpet
+                </li>
+                <li class="pricing-card__feature">Great for Jazz Bands</li>
+                <li class="pricing-card__feature">
+                  Beautiful in sound and appearance
+                </li>
+                <li class="pricing-card__feature">Just amazing</li>
+              </ul>
+              <button class="btn pricing-card__button">Select</button>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
